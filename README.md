@@ -1,3 +1,9 @@
+# Notes for self:
+
+Landing page needs:
+About section - Short introduction to the website
+Services section - What we offer
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

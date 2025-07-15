@@ -1,0 +1,85 @@
+.header {
+  text-align: center;
+  background: var(--logocolour);
+  vertical-align: bottom;
+  z-index: 1;
+  position: relative;
+}
+
+.logo {
+  height: auto;
+  max-width: 11rem;
+  padding-top: 4px;
+}
+
+.navbar {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: fill;
+  padding: 0.5em;
+  background-color: #68ae9f;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+  margin: 0;
+  z-index: 11;
+  position: relative;
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 2vw;
+  padding-right: 3vw;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.shape {
+  position: relative;
+  overflow: hidden;
+  height: 35px;
+  background-color: transparent;
+}
+
+.shape::before {
+  border-radius: 50%;
+  position: absolute;
+  background: var(--logocolour);
+  right: -200px;
+  left: -200px;
+  top: -200px;
+  content: "";
+  bottom: 0;
+}
+
+.small-button {
+  font-family: Kanit-ExtraLight;
+  font-size: small;
+  border-radius: 20px;
+  background-color: #a6dcd0;
+  height: fit-content;
+  width: fit-content;
+  min-width: 10%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.small-button-selected {
+  background-color: #68ae9f;
+  font-family: Kanit-ExtraLight;
+  font-size: small;
+  border-radius: 20px;
+  height: fit-content;
+  width: fit-content;
+  min-width: 10%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+  display: inline-block;
+}
