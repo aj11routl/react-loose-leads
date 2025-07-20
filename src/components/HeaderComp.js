@@ -13,9 +13,7 @@ function HeaderComp() {
           <img src={logo} className="logo" alt="logo" />
         </Link>
       </div>
-      <div>
-        <div className="shape" />
-      </div>
+      <div className="shape" />
     </div>
   );
 }

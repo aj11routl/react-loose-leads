@@ -4,24 +4,31 @@
   width: 100%;
 }
 
-.content-section {
-  padding-top: 2em;
-  padding-bottom: 2em;
+.content {
+  padding-top: 3em;
+  padding-bottom: 3.5em;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.content-section {
   background-color: var(--backcolour);
   align-content: center;
   align-items: center;
 }
 
 .content-section-2 {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 10%;
-  padding-right: 10%;
   background-color: var(--backcolourtwo);
   align-content: center;
   align-items: center;
+}
+
+.shape-wave {
+  background: #d84848;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .ll-image {
