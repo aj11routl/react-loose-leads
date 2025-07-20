@@ -12,7 +12,6 @@ function WaitlistPage() {
     <div>
       <HeaderComp />
       <div>
-        <div className="shape" />
         <div className="content-section">
           <div className="content">
             <h1>Waitlist</h1>

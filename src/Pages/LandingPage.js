@@ -52,9 +52,7 @@ function LandingPage() {
   return (
     <div className="App">
       <HeaderComp />
-      <div>
-        <div className="shape" />
-      </div>
+
       <div className="content-section">
         <h1>About Jay's Loose Leads</h1>
         <h3>Loose Leads is more than just walks..</h3>
