@@ -51,7 +51,7 @@ function LandingPage() {
 
   return (
     <div className="App">
-      <HeaderComp />
+      <HeaderComp page={1} />
 
       <div className="content-section">
         <div className="content">

@@ -12,6 +12,39 @@
   padding-top: 4px;
 }
 
+.navbar-button {
+  display: inline-block;
+  margin: 0 5vw;
+  color: white;
+}
+
+.navbar-shape {
+  width: fill;
+  height: 5px;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.navbar-shape-transparent {
+  width: fill;
+  height: 5px;
+  background-color: transparent;
+  border-radius: 10%;
+}
+
+.navbar {
+  z-index: 11;
+
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #68ae9f;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+/*
 .navbar {
   align-content: center;
   align-items: center;
@@ -24,6 +57,7 @@
   z-index: 11;
   position: relative;
 }
+*/
 
 .navbar li {
   display: inline;

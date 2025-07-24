@@ -23,7 +23,7 @@ function WaitlistPage() {
 
   return (
     <div>
-      <HeaderComp />
+      <HeaderComp page={2} />
       <div>
         <div className="content-section">
           <div className="content">
@@ -53,10 +53,9 @@ function WaitlistPage() {
             </row>
           </div>
         </div>
-        <div id="myForm"></div>
         <div className="content-section-2">
           <WaveShapeComp />
-          <div className="content">
+          <div className="content" id="myForm">
             <WaitlistForm shownForm={shownForm} />
           </div>
         </div>
