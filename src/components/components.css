@@ -1,9 +1,30 @@
+@media (max-width: 770px) {
+  .logo {
+    min-height: 500px;
+  }
+}
+
 .header {
   text-align: center;
   background: var(--logocolour);
   vertical-align: bottom;
   z-index: 1;
   position: relative;
+}
+
+.footer {
+  text-align: center;
+  background: var(--backcolour);
+  vertical-align: bottom;
+  position: relative;
+  padding: 20px;
+}
+
+.footer-directory-heading > .footer-directory-list {
+  color: red;
+  font-family: Kanit-Light;
+  font-size: small;
+  font-weight: 300;
 }
 
 .logo {
@@ -19,14 +40,14 @@
 }
 
 .navbar-shape {
-  width: fill;
+  width: stretch;
   height: 5px;
   background-color: white;
   border-radius: 10%;
 }
 
 .navbar-shape-transparent {
-  width: fill;
+  width: stretch;
   height: 5px;
   background-color: transparent;
   border-radius: 10%;
@@ -34,7 +55,8 @@
 
 .navbar {
   z-index: 11;
-
+  width: 100%;
+  box-sizing: border-box;
   align-content: center;
   align-items: center;
   text-align: center;
@@ -44,20 +66,40 @@
   position: relative;
 }
 
-/*
 .navbar {
-  align-content: center;
-  align-items: center;
   text-align: center;
-  width: fill;
-  padding: 0.5em;
-  background-color: #68ae9f;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 15px;
   margin: 0;
+  background-color: #d3d8e7;
+  color: black;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 11;
+
   position: relative;
 }
-*/
+
+.navbar-sticky {
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  background-color: #d3d8e7;
+  color: black;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+  animation: slideInDown 0.5s both;
+}
+
+@keyframes slideInDown {
+  0% {
+    position: absolute;
+    top: -10%;
+  }
+  100% {
+    position: fixed;
+    top: 0;
+  }
+}
 
 .navbar li {
   display: inline;

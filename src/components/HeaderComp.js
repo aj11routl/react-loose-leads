@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import "./components.css";
 
 import NavbarComp from "./NavbarComp.js";
+import ScrollNavbarComp from "./ScrollNavbarComp.js";
 
 // page is the current page
 function HeaderComp({ page }) {
   return (
     <div>
       <NavbarComp page={page} />
+
       <div className="header">
         <Link to="/">
           <img src={logo} className="logo" alt="logo" />

@@ -7,6 +7,8 @@ import dtcImg from "../images/DTC.png";
 import HeaderComp from "../components/HeaderComp";
 import SmallButtonComp from "../components/SmallButtonComp";
 import ParagraphComp from "../components/ParagraphComp";
+import ScrollNavbarComp from "../components/ScrollNavbarComp";
+import FooterComp from "../components/FooterComp";
 
 function LandingPage() {
   const services = [
@@ -33,7 +35,7 @@ function LandingPage() {
   useEffect(() => {
     // Your useEffect code here to be run on update
     //scroll to service description
-    if (serviceDesc != "") {
+    if (serviceDesc !== "") {
       scrollToSmooth(document.getElementById("desc"));
     }
   }, [serviceDesc]);
@@ -52,7 +54,6 @@ function LandingPage() {
   return (
     <div className="App">
       <HeaderComp page={1} />
-
       <div className="content-section">
         <div className="content">
           <h1>About Jay's Loose Leads</h1>
@@ -107,6 +108,7 @@ function LandingPage() {
         </div>
       </div>
       <div className="content-section"></div>
+      <FooterComp />
     </div>
   );
 }
